@@ -1,0 +1,71 @@
+.controls {
+  width: 100%;
+  background-color: white;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details_control {
+  display: flex;
+  font-size: 1.125rem;
+  color: #202124 !important ;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.details_control:hover {
+  background: rgba(128, 134, 139, 0.122);
+}
+
+.details_control > p {
+  margin-right: 5px;
+}
+
+.video-audio_contorls {
+  display: flex;
+}
+
+.control_btnContainer {
+  border-radius: 50%;
+  padding: 15px;
+  margin-right: 15px;
+  display: flex;
+  border: 1px solid #dadce0;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.control_btnContainer:hover {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  background-color: #f0f0f1;
+}
+
+.control-icon {
+  color: #5f6368 !important ;
+}
+
+.end-meet {
+  color: red !important;
+}
+
+.more-icon {
+  margin-right: 10px;
+}
+
+.red-bg {
+  background-color: #d93025 !important;
+}
+.red-bg > .control-icon {
+  color: white !important;
+}
+
+.control-icon {
+  font-size: 25px !important;
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", arial, Segoe UI, sans-serif;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.participant-name {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  color: white;
+}
+
+.participant {
+  padding: 10px;
+  border-radius: 6px;
+  position: relative;
+  margin-right: 10px;
+}

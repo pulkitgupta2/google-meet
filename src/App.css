@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  min-height: 100%;
+}
+
+.white {
+  color: white;
+}
+
+h1 {
+  font-weight: 300;
+  padding: 0.4em 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-weight: 300;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+button {
+  background: #333e5a;
+  color: #fff;
+  font-size: 16px;
+  padding: 0.4em;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.room {
+  position: relative;
+  background-color: #111111;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.room button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.room > h3 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.local-participant {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.remote-participants {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0 2em 2em;
+}
+.participant {
+  padding: 10px;
+  border-radius: 6px;
+  position: relative;
+  margin-right: 10px;
+}
+.participant:last-child {
+  margin-right: 0;
+}
+.participant h3 {
+  text-align: center;
+  padding-bottom: 0.5em;
+  color: #fff;
+}
+
+video {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.one_participant {
+  margin-top: -40px !important;
+  height: 90vh;
+}
+
+.one_participant video {
+  height: inherit;
+}
+
+.all-participants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.loading {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111111;
+}
+
+.loading_text {
+  color: #fff !important;
+  margin-left: 20px;
+}

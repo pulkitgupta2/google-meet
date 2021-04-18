@@ -1,0 +1,36 @@
+.top_header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: white;
+  padding: 15px 20px 10px 20px;
+  align-items: center;
+  display: flex;
+  border-bottom-left-radius: 5px;
+  color: #5f6368;
+}
+
+.top-header-item {
+  border-right: 1px solid #f1f3f4;
+  width: 70px;
+  cursor: pointer;
+}
+
+.top_header_video {
+  width: 67px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0;
+  height: 50px;
+}
+
+.video_item {
+  padding: 0;
+}
+
+.second-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

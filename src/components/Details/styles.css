@@ -1,0 +1,57 @@
+.details {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: white;
+  height: 100vh;
+  width: 300px;
+  cursor: context-menu;
+  z-index: 99;
+  padding: 20px;
+}
+
+.details_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details_header h1 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.deatils_activebar {
+  position: absolute;
+  border-radius: 3px 3px 0 0;
+  height: 3px;
+  background-color: #00796b;
+  transform: translateX(150px);
+  width: 91px;
+  top: 30px;
+}
+
+.details_tabs {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+  position: relative;
+}
+
+.details_tab {
+  display: flex;
+  align-items: center;
+  color: #5f6368;
+}
+
+.details_tab p {
+  margin-left: 4px;
+}
+
+.deatils_tab--active {
+  font-weight: 500;
+}
